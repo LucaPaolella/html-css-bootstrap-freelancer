@@ -26,3 +26,49 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+/*main-portfolio*/
+
+.titolo-e-stellina{
+    text-align: center;
+}
+
+.col{
+    max-width:calc(100% / 3);
+    padding: 10px;
+    margin: 10px;
+}
+
+.brown{
+    background-color: brown;
+}
+
+.acqua{
+    background-color: aqua;
+}
+
+.black{
+    background-color: black;
+}
+
+.aliceblue{
+    background-color: aliceblue;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.lightgrey{
+    background-color: lightgrey;
+}
+
+/*main-about*/
+
+#about{
+    background-color: aquamarine;
+    color: white;
+    text-align:center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
