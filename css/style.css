@@ -6,9 +6,23 @@
     box-sizing: border-box;
 }
 
-/*header*/
+/*header-nav*/
 
 #header-nav{
     background-color: darkblue;
     color: white;
+}
+
+.container>nav{
+    justify-content: space-between;
+}
+
+/*header-jumbo*/
+
+#jumbotron{
+    background-color: aquamarine;
+    color: white;
+    text-align:center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
