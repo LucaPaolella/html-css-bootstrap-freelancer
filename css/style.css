@@ -72,3 +72,17 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+/*footer-big*/
+
+#footer-big{
+    background-color: gray;
+    color: white;
+}
+
+/*footer-big*/
+
+#footer-small{
+    background-color: black;
+    color: white;
+}
