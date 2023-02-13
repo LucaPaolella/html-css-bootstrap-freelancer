@@ -119,13 +119,27 @@ ul{
 /*footer-big*/
 
 #footer-big{
-    background-color: gray;
+    background-color: var(--ms-primary-color-light);
     color: white;
 }
 
-/*footer-big*/
+.footer-col-container{
+    text-align: center;
+}
+
+.fa-brands{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding:10px;
+}
+
+.final-mark-up{
+    color:var(--ms-secondary-color)
+}
+/*footer-small*/
 
 #footer-small{
-    background-color: black;
+    background-color: var(--ms-primary-color);
     color: white;
 }
+
