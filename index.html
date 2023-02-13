@@ -145,25 +145,48 @@
         </div>
 
         <div class="d-flex justify-content-center pt-5 ">
-          <button><i class="fa-sharp fa-solid fa-download"></i>Download</button>
+          <button type="submit" class="btn btn-primary"><i class="fa-sharp fa-solid fa-download"></i>Download</button>
         </div>
       </div>
     </section>
-    <section id="contact-me">
 
-      <div class="titolo-e-stellina">
-        <h1>CONTACT-ME</h1>
-        <div>Stellina</div>
+    <section id="contact-me" class="pt-5 pb-5">
+
+      <div class=" container titolo-e-stellina">
+        <h1>CONTACT ME</h1>
+        <div class="container stellina d-flex mt-3 mb-3">
+          <div class="div-vuoto border-black"></div>
+          <div><i class="fa-solid fa-star"></i></div>
+          <div class="div-vuoto border-black"></div>
+        </div>
       </div>
 
-      <div class="container d-flex flex-column bd-highlight mb-3">
-        <div class="p-2 bd-highlight">Flex item 1</div>
-        <div class="p-2 bd-highlight">Flex item 2</div>
-        <div class="p-2 bd-highlight">Flex item 3</div>
-        <div class="p-2 bd-highlight">Cose</div>
-      </div>
+      <div class="container">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputName1" class="form-label">Name</label>
+            <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">          
+          </div>
 
-      <div class="container"><button>cose</button></div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">          
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputPhone" class="form-label">Phone Number</label>
+            <input type="phone" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">          
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send</button>
+        
+        </form>
+      </div>
 
     </section>
   </main>
