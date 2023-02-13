@@ -33,14 +33,38 @@ ul{
     color:white;
 }
 
+.nav-link{
+    font-size: 15px;
+}
+
 /*header-jumbo*/
 
 #jumbotron{
-    background-color: aquamarine;
+    background-color: var(--ms-secondary-color);
     color: white;
-    text-align:center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    text-align: center;
+}
+
+.div-vuoto {
+    border-bottom: 4px solid white;
+    width: calc((100% / 2) - 20px);
+    height: 10px;
+    padding: 5px;
+}
+
+.avatar{
+    max-width: 300px;
+}
+
+.fa-star{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.jumbo-ul>li{
+    max-width: calc(100% / 3);
+    font-size: 16px;
 }
 
 /*main-portfolio*/
