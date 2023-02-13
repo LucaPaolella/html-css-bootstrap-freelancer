@@ -45,6 +45,13 @@ ul{
     margin-right: 10px;
 }
 
+button{
+    background-color: var(--ms-secondary-color);
+    color: white;
+    padding: 5px;
+    border-radius: 10%;
+}
+
 /*header-nav*/
 
 #header-nav {
@@ -96,11 +103,9 @@ ul{
 /*main-about*/
 
 #about{
-    background-color: aquamarine;
+    background-color: var(--ms-secondary-color);
     color: white;
     text-align:center;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 /*footer-big*/
